@@ -1,3 +1,8 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style>
 <title>Missão Algoritmo 2</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -75,6 +80,14 @@ body.inicio .marca{visibility:hidden}
 .abertura h1 .y{color:var(--yellow)}.abertura h1 .p{color:var(--purple)}.abertura h1 .k{color:var(--pink)}
 .abertura p{color:var(--soft);margin-top:4px}
 
+.objetivos{margin:-12px 0 44px;padding:18px 20px;border-radius:18px;background:var(--surface)}
+.objetivos h2{font-size:17px;margin-bottom:8px}
+.objetivos ol{margin:0;padding-left:20px;color:var(--soft);font-size:15px;display:flex;flex-direction:column;gap:4px}
+.objetivos ol li::marker{color:var(--yellow);font-weight:800}
+.objetivos p{margin-top:10px;font-size:14px;color:var(--dim)}
+.leia{display:block;margin-top:28px;padding:16px 18px;border-radius:16px;background:var(--surface);text-decoration:none;color:var(--text)}
+.leia small{display:block;color:var(--soft);font-size:13px}
+.leia b{font-family:var(--display);font-weight:600;font-size:17px;color:var(--purple)}
 /* ETAPA 1 */
 .jogo-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:24px}
 .palpite{display:flex;gap:10px;justify-content:center;margin-bottom:8px}
@@ -258,6 +271,16 @@ input[type=text]:focus,select:focus{border-color:var(--green);outline:none}
       <div><h1><span class="y">Missão</span> <span class="p">Algoritmo</span> <span class="k">2</span></h1>
       <p>Do jogo de adivinhar até o algoritmo do seu sistema operacional.</p></div>
     </div>
+    <section class="objetivos" aria-labelledby="objT">
+      <h2 id="objT">Nesta aula você vai</h2>
+      <ol>
+        <li>comparar a busca linear com a busca binária e explicar qual é mais eficiente</li>
+        <li>usar metades e potências de 2 para provar o máximo de tentativas</li>
+        <li>montar e testar dois algoritmos, usando o pior caso para avaliar cada um</li>
+        <li>reconhecer os algoritmos de um sistema operacional e planejar o do seu próprio sistema</li>
+      </ol>
+      <p>Continua da <a href="https://paulapeclat.github.io/missao-algoritmo/" target="_blank" rel="noopener">Missão Algoritmo 1</a>.</p>
+    </section>
     <div class="cab">
       <div class="caps">Etapa 1 de 5</div>
       <h2 id="t1">Adivinhe o número</h2>
@@ -313,6 +336,7 @@ input[type=text]:focus,select:focus{border-color:var(--green);outline:none}
       <p>Cada palpite a mais dobra a quantidade de números que dá para vencer. Com k palpites, dá para vencer 2<sup>k</sup> − 1 números.</p>
       <div class="eq" id="conta"></div>
     </div>
+    <a class="leia" href="https://paulapeclat.github.io/missao-algoritmo/matematica-escondida/" target="_blank" rel="noopener"><small>Para pais e educadores</small><b>A matemática escondida no jogo de adivinhar →</b></a>
     <div class="navega"><button class="btn sec" type="button" data-go="jogo">← Voltar</button><button class="btn prox" type="button" data-go="lab">Próxima etapa →</button></div>
   </section>
 
