@@ -1,5 +1,7 @@
 # Missão Algoritmo
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24238336.svg)](https://doi.org/10.5281/zenodo.24238336)
+
 > Aulas interativas de algoritmos, do jogo de adivinhar até a troca de um bot de regras por uma IA. Tudo roda no navegador, sem instalar nada.
 
 **Autora:** [Paula Peclat](https://github.com/paulapeclat) · [Educação Tecnológica Paula Peclat](https://paulapeclat.com.br)
