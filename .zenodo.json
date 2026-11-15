@@ -1,0 +1,29 @@
+{
+  "title": "Missão Algoritmo: aulas interativas de algoritmos, do jogo de adivinhar à IA",
+  "upload_type": "lesson",
+  "description": "<p>Série de quatro aulas interativas em HTML que levam a estudante da decomposição de um projeto e da escrita de um algoritmo até a busca binária, o bot de regras e a troca do bot por um modelo de linguagem, com um texto de apoio sobre a matemática escondida no jogo de adivinhar. Código sob licença MIT e textos sob CC BY 4.0.</p>",
+  "creators": [
+    {
+      "name": "Peclat, Paula",
+      "affiliation": "Educação Tecnológica Paula Peclat",
+      "orcid": "0009-0008-6535-7090"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "language": "por",
+  "keywords": [
+    "algoritmos",
+    "pensamento computacional",
+    "busca binária",
+    "chatbot",
+    "inteligência artificial",
+    "ensino de programação"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/paulapeclat/missao-algoritmo",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
