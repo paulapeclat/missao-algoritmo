@@ -22,6 +22,10 @@ Cada missão é uma página com cinco etapas. A estudante joga, observa, testa n
 
 Abra os links acima ou, sem internet, baixe o repositório e abra o `index.html` de cada pasta no navegador. O progresso fica salvo só no navegador de quem usa a página, e nada do que a estudante escreve é enviado para servidor. As fontes das páginas são carregadas do Google Fonts.
 
+## Dúvidas e sugestões
+
+Ficou com dúvida em alguma missão ou tem uma ideia para a próxima? Pergunte nas [Discussions](https://github.com/paulapeclat/missao-algoritmo/discussions/categories/q-a). Estudantes, famílias e educadoras e educadores são bem-vindos. Só não publique nome completo, escola ou outros dados pessoais de crianças.
+
 ## Licença
 
 © 2026 Paula Peclat.
