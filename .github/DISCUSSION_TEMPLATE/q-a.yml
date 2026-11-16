@@ -1,0 +1,37 @@
+title: "[Missão ?] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigada por perguntar! Conte em qual missão você está e o que aconteceu, assim fica mais fácil ajudar.
+        Não escreva aqui nome completo, escola, endereço ou qualquer dado pessoal de crianças.
+  - type: dropdown
+    id: missao
+    attributes:
+      label: Em qual missão?
+      options:
+        - Missão 1 (algoritmo do projeto)
+        - Missão 2 (jogo de adivinhar e busca binária)
+        - Missão 3 (bot de regras)
+        - Missão 4 (bot com IA)
+        - Texto de apoio (matemática escondida)
+        - Outra coisa
+    validations:
+      required: true
+  - type: dropdown
+    id: quem
+    attributes:
+      label: Quem está perguntando?
+      options:
+        - Estudante
+        - Família
+        - Educadora ou educador
+        - Outra pessoa
+  - type: textarea
+    id: pergunta
+    attributes:
+      label: Sua pergunta
+      description: O que você tentou fazer e o que aconteceu?
+    validations:
+      required: true
